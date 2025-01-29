@@ -1,4 +1,29 @@
-h1 {
-    color: blue;
-    font-weight: bold;
-}
+/*Set the color and font size of the whole file*/
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/*Headings*/
+h1{font-size:25px;font-weight: bold;}
+h2{font-size:20px;font-weight: bold;}
+
+/*Navbar*/
+.w3-navbar{list-style-type:none;margin:0%;padding:15px;overflow:hidden;text-decoration: none;}
+/*Sets the bar to be horizontal*/
+.w3-navbar li{float:left;text-decoration: none;}
+/*Sets navbar block buttons*/
+.w3-navbar li a,.w3-navitem{display:block;padding:10% 10%}
+/*Sets so navbar options highlighted when hovered over*/
+.w3-navbar li a:hover{color:#000;background-color:#ccc;text-decoration:none;}
+.w3-navbar li a{
+   display: inline;
+   margin-right: 20px;
+   }
+/*Sets so navbar options highlighted when hovered over*/
+.w3-navbar li a:hover{color:#000;background-color:#ccc;text-decoration:none;}
+.w3-navbar li a{
+   display: inline;padding-left:18%;padding-right:18px;}
+   
+/*Side bar*/
+
