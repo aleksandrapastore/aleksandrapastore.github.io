@@ -24,6 +24,9 @@ h2{font-size:20px;font-weight: bold;}
 .w3-navbar li a:hover{color:#000;background-color:#ccc;text-decoration:none;}
 .w3-navbar li a{
    display: inline;padding-left:18%;padding-right:18px;}
-   
+
+.w3-theme {color:#fff !important; background-color:#000000 !important}
+.w3-theme2 {color:#fff !important; background-color:#000000 !important}
+
 /*Side bar*/
 
