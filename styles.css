@@ -1,69 +1,37 @@
 /*Set the color and font size of the whole file*/
 html,body{font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1.5;}
-body {
-	margin-top: 20px;
-	margin-bottom: 2%;
-	padding-left: 0%;
-	padding-right: 0%;
-	background-position: center top;
-	font-family: Helvetica, sans-serif;
-	color: #181B20;
-}
+body {margin-top:20px;margin-bottom:2%;padding-left:0%;padding-right:0%;background-position:center top;font-family:Helvetica, sans-serif;color:#181B20;}
+/*Main content format*/
+.main-content{padding-left:300px;padding-top:50px;font-size:20px;overflow:auto;width:1100px;}
 
 /*Headings*/
-h1{font-size:25px;font-weight: bold;text-decoration: underline;}
-h2{font-size:25px;font-weight: bold;text-decoration: underline;}
-h1,h2{margin:1% 0;
-    text-decoration: underline; font-weight: bold;}
-
+h1{font-size:25px;font-weight:bold;text-decoration:underline;}
+h2{font-size:25px;font-weight:bold;text-decoration:underline;}
+h1,h2{margin:1% 0; text-decoration: underline; font-weight: bold;}
 /*Colour of Navbar headings*/
-a{color:inherit;text-decoration: none;font-weight: bold;}
-
+a{color:inherit;text-decoration:none;font-weight:bold;}
 
 /*Navbar*/
-.w3-navbar{list-style-type:none;margin:0%;padding:15px;overflow:hidden;text-decoration: none;}
+.w3-navbar{list-style-type:none;margin:0%;padding:15px;overflow:hidden;text-decoration:none;}
 /*Sets the bar to be horizontal*/
-.w3-navbar li{float:left;text-decoration: none;}
-/*Sets navbar block buttons*/
-.w3-navbar li a,.w3-navitem{display:block;padding:10% 10%}
+.w3-navbar li{float:left;text-decoration:none;}
+/*Sets navbar block button size*/
+.w3-navbar li a,.w3-navitem{display:block;padding:10%}
 /*Sets so navbar options highlighted when hovered over*/
 .w3-navbar li a:hover{color:#000;background-color:#ccc;text-decoration:none;}
-.w3-navbar li a{
-   display: inline;
-   margin-right: 20px;
-   }
-/*Sets so navbar options highlighted when hovered over*/
-.w3-navbar li a:hover{color:#000;background-color:#ccc;text-decoration:none;}
-.w3-navbar li a{
-   display: inline;padding-left:18%;padding-right:18px;}
-
-
-.w3-theme {color:#fff !important; background-color:#000000 !important}
-.w3-theme2 {color:#fff !important; background-color:#000000 !important}
+.w3-navbar li a{display:inline;margin-right:20px;padding-left:20px;padding-right:18px;}
+/*Sets the colors of the navbar*/
+.w3-theme{color:#fff !important; background-color:#000000 !important}
+.w3-theme2{color:#fff !important; background-color:#000000 !important}
 
 /*Side bar*/
-.w3-sidenav{padding-top:30px;font-size: 1em; display:block;margin-top:15px;margin-left:0%;
-    height:100%;width:250px;background-color:#007dc5;position:fixed!important;z-index:1;overflow:auto;}
-
-/*Define top of page*/
-
-li{
-    margin-bottom: 5px;
-}
-
+.w3-sidenav{padding-top:50px;font-size:1em;display:block;margin-top:15px;margin-left:0%;height:100%;width:250px;background-color:#007dc5;position:fixed!important;z-index:1;overflow:auto;text-align: center;}
+/*Define top of page to align the sidebar*/
+li{margin-bottom:5px;}
 .w3-top{position:fixed;width:100%;z-index:1}.w3-top{top:0}
 .w3-bottom{list-style-type:none;}
-/*Sets the bar to be horizontal*/
-.w3-bot{position:fixed;width:100%;z-index:1}.w3-bot{bottom:0}
 
-
-.main-content{padding-left:300px;padding-top:50px;
-font-size: 20px;overflow:auto;width: 1100px;}
-
-.twitter{ left:320px; padding-top:100px;position: absolute;width: 600px;}
-
-/*Colour of heading text*/
-.w3-text-teal,.w3-hover-text-teal:hover{color:#00539b!important}
-.blue-text{color:#4682B4;}
-/*Background colour of navbar*/
-    
+/*Links*/
+a.one:link {color: #007dc5;text-decoration:none;}
+a.one:visited {color: #6d6dbe;text-decoration:none;}
+a.one:hover {text-decoration:underline;}
