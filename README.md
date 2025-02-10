@@ -1,1 +1,2 @@
 # aleksandrapastore.github.io
+This is my first project to learn the basics of HTML while designing a personal page on github. The page has a top navigation bar and fixed side panel, both styled with CSS. The main page content gives a short description of myself. Other pages give a description of my higher education, professional qualifications, recent trips, and interests. While doing this project I learned the basic concepts of HTML, such as the different parts of the index file, unordered and ordered lists, hyperlinks, media links, and page navigation.
